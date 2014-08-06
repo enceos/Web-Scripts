@@ -1,0 +1,170 @@
+header {
+	background-attachment: fixed;
+	background-origin: padding-box;
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	position: relative;
+	-webkit-background-clip: border-box;
+	-moz-background-clip: border-box;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+}
+
+.optimization {
+	background-attachment: fixed;
+	background-origin: padding-box;
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	position: relative;
+	-webkit-background-clip: border-box;
+	-moz-background-clip: border-box;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+}
+
+.animated {
+	-webkit-animation-fill-mode: both;
+	animation-fill-mode: both;
+}
+
+/*.light,*/
+.light-shadow,
+.light_on,
+.form-film .form-desc,
+.form-film .ipad_shadow,
+.form-film .ipad,
+.free-cons .form-desc,
+.form-film .form-desc,
+.free-cons form,
+.form-film form {
+	-webkit-animation-fill-mode: both;
+	animation-fill-mode: both;
+	opacity: 0;
+}
+
+/*@keyframes light_fade {
+	0% {margin-top: -50px; opacity: 0;}
+	100% {margin-top: 0px; opacity: 1;}
+}
+
+@-webkit-keyframes light_fade {
+	0% {margin-top: -50px; opacity: 0;}
+	100% {margin-top: 0px; opacity: 1;}
+}
+
+.animated.free-cons .light {
+	animation-name: light_fade;
+	-webkit-animation-name: light_fade;
+	-webkit-animation-duration: .7s;
+	animation-duration: .7s;
+}*/
+
+@keyframes shadow_fade {
+	0% {opacity: 0;}
+	100% {opacity: 1;}
+}
+
+@-webkit-keyframes shadow_fade {
+	0% {opacity: 0;}
+	100% {opacity: 1;}
+}
+
+.animated.free-cons .light-shadow {
+	animation-name: shadow_fade;
+	-webkit-animation-name: shadow_fade;
+	-webkit-animation-delay: .1s;
+	animation-delay: .1s;
+	-webkit-animation-duration: 1s;
+	animation-duration: 1s;
+}
+
+@keyframes desc_fade {
+	0% {margin-left: 50px; opacity: 0;}
+	100% {margin-left: 0px; opacity: 1;}
+}
+
+@-webkit-keyframes desc_fade {
+	0% {margin-left: 50px; opacity: 0;}
+	100% {margin-left: 0px; opacity: 1;}
+}
+
+.animated.free-cons .form-desc,
+.animated.form-film .form-desc {
+	animation-name: desc_fade;
+	-webkit-animation-name: desc_fade;
+	-webkit-animation-duration: 1s;
+	animation-duration: 1s;
+}
+
+@keyframes form_fade {
+	0% {opacity: 0;}
+	100% {opacity: 1;}
+}
+
+@-webkit-keyframes form_fade {
+	0% {opacity: 0;}
+	100% {opacity: 1;}
+}
+
+.animated.free-cons form,
+.animated.form-film form {
+	animation-name: form_fade;
+	-webkit-animation-name: form_fade;
+	-webkit-animation-duration: 1s;
+	animation-duration: 1s;
+}
+
+@keyframes light_fades {
+	0% {margin-top: -50px; opacity: 0;}
+	100% {margin-top: 0px; opacity: 1;}
+}
+
+@-webkit-keyframes light_fades {
+	0% {margin-top: -50px; opacity: 0;}
+	100% {margin-top: 0px; opacity: 1;}
+}
+
+.animated.form-film .ipad {
+	animation-name: light_fades;
+	-webkit-animation-name: light_fades;
+	-webkit-animation-duration: 1s;
+	animation-duration: 1s;
+}
+
+@keyframes shadow_fade {
+	0% {opacity: 0;}
+	100% {opacity: 1;}
+}
+
+@-webkit-keyframes shadow_fade {
+	0% {opacity: 0;}
+	100% {opacity: 1;}
+}
+
+.animated.form-film .ipad_shadow {
+	animation-name: shadow_fade;
+	-webkit-animation-name: shadow_fade;
+	-webkit-animation-delay: .1s;
+	animation-delay: .1s;
+	-webkit-animation-duration: 1s;
+	animation-duration: 1s;
+}
+
+@keyframes light_fade {
+	0% {opacity: 0;}
+	100% {opacity: 1;}
+}
+
+@-webkit-keyframes light_fade {
+	0% {opacity: 0;}
+	100% {opacity: 1;}
+}
+
+.animated.free-cons .light_on {
+	animation-name: light_fade;
+	-webkit-animation-name: light_fade;
+	-webkit-animation-duration: 1s;
+	animation-duration: 1s;
+}
