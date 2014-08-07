@@ -11,10 +11,10 @@ var mobile = navigator.userAgent.toLowerCase().match(/(iphone|ipod|ipad|android)
                 var scroll_top = $(this).scrollTop();
                 if ((scroll_top > top) && (scroll_top < bottom)) {
                     if (!block.hasClass("animated")) {
-                        block.addClass("animated");
+                        block.addClass("animated"); block.removeClass("hidden");
                     }
                 } else {
-                    block.removeClass("animated");
+                    block.removeClass("animated"); block.addClass("hidden");
                 }
             });
         });
