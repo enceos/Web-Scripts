@@ -11,9 +11,20 @@ Copyright (c) 2014 Daniel Eden
   opacity: 0;
   }
 
-.animated {
+.1s {
   -webkit-animation-duration: 1s;
-  animation-duration: 1s;
+  animation-duration: 1s;}
+  
+.2s {
+  -webkit-animation-duration: 2s;
+  animation-duration: 2s;}
+
+.3s {
+  -webkit-animation-duration: 3s;
+  animation-duration: 3s;}
+  
+  
+.animated {
   -webkit-animation-delay: .1s;
   animation-delay: .1s;
   -webkit-animation-fill-mode: both;
