@@ -161,16 +161,4 @@
 
 })(jQuery);
 
-jQuery(document).ready(function() {
-				$('#countdown_dashboard').countDown({
-					targetDate: {
-						'day': 		13,
-						'month': 	8,
-						'year': 	2014,
-						'hour': 	6,
-						'min': 		0,
-						'sec': 		0,
-						'utc':      true
-					},
-				});
-			});
+
